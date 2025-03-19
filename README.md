@@ -6,7 +6,10 @@ This pipeline is designed to **transfer data from Azure Data Lake Storage Gen2 (
 
 ## **Architecture Diagram**
 
-(Include a diagram illustrating the flow: ADLS Gen2 → ADF → Blob Storage)
+**ADLS Gen2 → ADF → Blob Storage**
+![ADLS Gen2 Source Container](images/adlsgen2_source_container.png)
+![ADF Pipeline Flow](images/adf_pipeline.png)
+![Blob Emp Tgt Container](images/blob_emp_tgt_container.png)
 
 ## **Prerequisites**
 
@@ -42,8 +45,6 @@ Azure services are **independent** and **do not communicate internally** by defa
 - `blob` → Blob Storage
 - `b21blobstorage2` → Storage account name
 
----
-
 ### **2. Define Datasets for Source and Target**
 
 A **Dataset** represents the data structure (file format, storage path) used in the pipeline.
@@ -69,8 +70,6 @@ A **Dataset** represents the data structure (file format, storage path) used in 
 - `blob` → Blob Storage
 - `b21blobstorage2` → Storage account name
 - `emp_tgt` → Container name
-
----
 
 ### **3. Configure the Pipeline**
 
@@ -111,3 +110,9 @@ A **Dataset** represents the data structure (file format, storage path) used in 
  ├── source_list.txt        # File containing the list of source data files for processing
  ├── README.md              ← (This file)
 ```
+
+---
+🔗 **Author**: Naveen Madala  
+📧 **Contact**: madalanaveen9@gmail.com
+🔗 **LinkedIn**: [naveen-madala9](https://www.linkedin.com/in/naveen-madala9/)
+
