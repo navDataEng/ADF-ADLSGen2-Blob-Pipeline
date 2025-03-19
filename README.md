@@ -42,8 +42,6 @@ Azure services are **independent** and **do not communicate internally** by defa
 - `blob` → Blob Storage
 - `b21blobstorage2` → Storage account name
 
----
-
 ### **2. Define Datasets for Source and Target**
 
 A **Dataset** represents the data structure (file format, storage path) used in the pipeline.
@@ -69,8 +67,6 @@ A **Dataset** represents the data structure (file format, storage path) used in 
 - `blob` → Blob Storage
 - `b21blobstorage2` → Storage account name
 - `emp_tgt` → Container name
-
----
 
 ### **3. Configure the Pipeline**
 
