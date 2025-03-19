@@ -107,3 +107,9 @@ A **Dataset** represents the data structure (file format, storage path) used in 
  ├── source_list.txt        # File containing the list of source data files for processing
  ├── README.md              ← (This file)
 ```
+
+---
+🔗 **Author**: Naveen Madala  
+📧 **Contact**: madalanaveen9@gmail.com
+🔗 **LinkedIn**: [naveen-madala9](https://www.linkedin.com/in/naveen-madala9/)
+
