@@ -6,7 +6,10 @@ This pipeline is designed to **transfer data from Azure Data Lake Storage Gen2 (
 
 ## **Architecture Diagram**
 
-(Include a diagram illustrating the flow: ADLS Gen2 → ADF → Blob Storage)
+**ADLS Gen2 → ADF → Blob Storage**
+![ADLS Gen2 Source Container](images/adlsgen2_source_container.png)
+![ADF Pipeline Flow](images/adf_pipeline.png)
+![Blob Emp Tgt Container](images/blob_emp_tgt_container.png)
 
 ## **Prerequisites**
 
