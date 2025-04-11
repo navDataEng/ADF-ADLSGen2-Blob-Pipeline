@@ -114,5 +114,4 @@ A **Dataset** represents the data structure (file format, storage path) used in 
 ---
 🔗 **Author**: Naveen Madala  
 📧 **Contact**: madalanaveen9@gmail.com
-🔗 **LinkedIn**: [naveen-madala9](https://www.linkedin.com/in/naveen-madala9/)
-
+🔗 **LinkedIn**: [https://www.linkedin.com/in/madalanaveen](https://www.linkedin.com/in/madalanaveen/)
